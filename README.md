@@ -1,13 +1,2 @@
 ### 2024 MDDN342 Project 1: Parameterised Space
-EXAMPLE README 
-Update this! 
-
-This design is inspired by fireworks and flowers. I want it to be full of changes, so that every frame can have a fresh feeling.
-
-In terms of concrete performance, I draw different geometric figures, let them spread out, and overlay their number at the same time, through the time difference to make the whole dynamic background become enthusiastic.
-
-In terms of color, I made different shapes correspond to different colors, and changed the parameters so that they were different every time they appeared, so that there would be differences between different loops.
-
-In the initial design, I only added the circle. Through the color change of the circle and the superposition of the movement track, although it has a good effect, I think it is too monotonous.
-
-In the later stages, I added a lot of geometric shapes, which made the color and pattern more variable.
+If I'm being honest, for this project I went in blind in terms of design intention. My technical goals however, have always been clear to me. The only goal I have from the start is to essentially build my own pseudo 3D renderer in P5. By just rendering the normals of a 3D model as a .png image I can load the pixels into p5.js and by interpolating between the red and green channels it gives a pretty convincing lighting effect.
